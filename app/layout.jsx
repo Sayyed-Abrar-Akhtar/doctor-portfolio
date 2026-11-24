@@ -1,0 +1,3 @@
+import "./globals.css";
+export const metadata = { title: "Dr. Aanya Sharma | CONSULTANT CARDIOLOGIST", description: "Thoughtful, evidence-led heart care with time for every question. A calm, personal approach to prevention, diagnosis and long-term wellbeing.", metadataBase: new URL("https://example.com"), openGraph: { title: "Dr. Aanya Sharma", description: "Thoughtful, evidence-led heart care with time for every question. A calm, personal approach to prevention, diagnosis and long-term wellbeing.", type: "website" } };
+export default function RootLayout({ children }) { return <html lang="en"><body>{children}</body></html>; }
